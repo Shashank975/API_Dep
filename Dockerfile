@@ -19,7 +19,7 @@ WORKDIR /src
 COPY . /src
 
 # Install Python dependencies
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirement.txt
 
 # Expose the port your app runs on
 EXPOSE 5000
