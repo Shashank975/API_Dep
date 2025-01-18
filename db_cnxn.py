@@ -25,16 +25,7 @@ else:
     print("Connection Failed")
 
 query = "Select * from [HumanResources].[Department]"
-# Using Dataframes
 
-# query = "Select * from [HumanResources].[Department]"
-# df = pd.read_sql(query,cnxn)
-# def Eng_name():
-#     eng_name = df["Name"].value_counts()
-#     return eng_name
-
-# a = Eng_name()
-# print("\nDepartment names with the most employees:\n",a)
 
 def department_data():
     cursor.execute(query)
